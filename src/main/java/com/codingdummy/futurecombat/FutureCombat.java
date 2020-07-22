@@ -1,6 +1,8 @@
 package com.codingdummy.futurecombat;
 
 import com.codingdummy.futurecombat.items.weapon.BeamSaber;
+import com.codingdummy.futurecombat.renderer.BeamSaberRenderer;
+import com.codingdummy.futurecombat.util.EntitiesType;
 import com.codingdummy.futurecombat.util.EntitiesTypeRegistryHandler;
 import com.codingdummy.futurecombat.util.KeyBindingHandler;
 import com.codingdummy.futurecombat.util.WeaponRegistryHandler;
@@ -12,6 +14,7 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.eventbus.api.EventPriority;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fml.client.registry.RenderingRegistry;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
@@ -41,7 +44,7 @@ public class FutureCombat
     }
     private void setup(final FMLCommonSetupEvent event)
     {
-
+        RenderingRegistry.registerEntityRenderingHandler(EntitiesType.BEAM_SABER_ENTITY_TYPE, BeamSaberRenderer::new);
     }
 
     private void doClientStuff(final FMLClientSetupEvent event)

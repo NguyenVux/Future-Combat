@@ -157,13 +157,7 @@
 		{
 			"name": "VoxelShape",
 			"origin": [8, 8, 8],
-			"children": [0, 1, 2,
-				{
-					"name": "top",
-					"origin": [8, 8, 8],
-					"children": [3, 4, 5, 6, 7]
-				}
-			]
+			"children": [0, 1, 2, 3, 4, 5, 6, 7]
 		}
 	]
 }

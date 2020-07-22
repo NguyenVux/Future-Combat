@@ -1,10 +1,7 @@
 package com.codingdummy.futurecombat.projectile;
 
 import com.codingdummy.futurecombat.util.EntitiesType;
-import net.minecraft.entity.Entity;
-import net.minecraft.entity.EntityClassification;
-import net.minecraft.entity.EntityType;
-import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.*;
 import net.minecraft.entity.item.minecart.MinecartEntity;
 import net.minecraft.entity.passive.AnimalEntity;
 import net.minecraft.entity.projectile.AbstractArrowEntity;
@@ -28,7 +25,22 @@ public class BeamSaberEntity extends Entity {
     public BeamSaberEntity(EntityType<?> entityTypeIn, World worldIn) {
         super(entityTypeIn, worldIn);
     }
-    
+
+    @Override
+    protected void registerData() {
+
+    }
+
+    @Override
+    protected void readAdditional(CompoundNBT compound) {
+
+    }
+
+    @Override
+    protected void writeAdditional(CompoundNBT compound) {
+
+    }
+
     @Override
     public IPacket<?> createSpawnPacket() {
         return NetworkHooks.getEntitySpawningPacket(this);
@@ -41,5 +53,4 @@ public class BeamSaberEntity extends Entity {
         Vec3d pos = thrower.getPositionVec();
         this.setPosition(pos.getX(),pos.getY(),pos.getZ());
     }
-
 }

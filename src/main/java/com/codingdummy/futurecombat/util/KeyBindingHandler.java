@@ -41,8 +41,9 @@ public class KeyBindingHandler {
             ItemStack mainHand = player.getHeldItemMainhand();
             if(mainHand.getItem() instanceof BeamSaber && mainHand.getTag().getBoolean("futurecombat:is_active"))
             {
-                BeamSaberEntity a = new BeamSaberEntity(world,player,mainHand);
+                BeamSaberEntity a = new BeamSaberEntity(world,mainHand, player);
                 world.addEntity(a);
+                FutureCombat.LOGGER.debug("throw");
             }
         }
     }
