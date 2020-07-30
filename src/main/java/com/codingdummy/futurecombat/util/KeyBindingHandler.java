@@ -6,9 +6,12 @@ import com.codingdummy.futurecombat.projectile.BeamSaberEntity;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.settings.KeyBinding;
 import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.passive.SheepEntity;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.entity.projectile.TridentEntity;
 import net.minecraft.item.ItemStack;
+import net.minecraft.util.NonNullList;
 import net.minecraft.world.World;
 import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.event.entity.player.ArrowNockEvent;
@@ -30,19 +33,22 @@ public class KeyBindingHandler {
         ClientRegistry.registerKeyBinding(throw_saber);
     }
 
-    @SubscribeEvent(priority = EventPriority.HIGHEST)
+    @SubscribeEvent
     public static void PlayerTickEvent(final TickEvent.PlayerTickEvent event)
     {
-
-        if(KeyBindingHandler.throw_saber.isPressed())
+        if(event.phase != TickEvent.Phase.END) return;
+        if(KeyBindingHandler.throw_saber.isKeyDown())
         {
             PlayerEntity player = event.player;
             World world = player.getEntityWorld();
-            ItemStack mainHand = player.getHeldItemMainhand();
+            PlayerInventory inven = player.inventory;
+            int slot = inven.currentItem;
+            ItemStack mainHand = inven.getStackInSlot(slot);
             if(mainHand.getItem() instanceof BeamSaber && mainHand.getTag().getBoolean("futurecombat:is_active"))
             {
                 BeamSaberEntity a = new BeamSaberEntity(world,mainHand, player);
                 world.addEntity(a);
+                inven.removeStackFromSlot(slot);
                 FutureCombat.LOGGER.debug("throw");
             }
         }

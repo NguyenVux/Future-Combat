@@ -2,18 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ea9000b-55cb-4242-b0ba-f238923f148c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codingdummy/futurecombat/model/BeamSaberEntityModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codingdummy/futurecombat/util/MathHelperCodingDummy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/codingdummy/futurecombat/FutureCombat.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/codingdummy/futurecombat/FutureCombat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2020-07-17-1.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/codingdummy/futurecombat/items/weapon/BeamSaber.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/codingdummy/futurecombat/items/weapon/BeamSaber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/codingdummy/futurecombat/projectile/BeamSaberEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/codingdummy/futurecombat/projectile/BeamSaberEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/codingdummy/futurecombat/util/EntitiesType.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/codingdummy/futurecombat/util/EntitiesType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/codingdummy/futurecombat/util/KeyBindingHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/codingdummy/futurecombat/util/KeyBindingHandler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-2.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-3.log.gz" afterDir="false" />
@@ -29,19 +33,20 @@
       <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.-1.-1.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.-1.0.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/region/r.-1.1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.-1.1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/region/r.-2.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.-2.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/region/r.-2.1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.-2.1.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.0.-1.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.0.0.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/region/r.0.1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.0.1.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/session.lock" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/session.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/stats/380df991-f603-344c-a090-369bad2a924a.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/380df991-f603-344c-a090-369bad2a924a.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codingdummy/futurecombat/FutureCombat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codingdummy/futurecombat/FutureCombat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codingdummy/futurecombat/items/weapon/BeamSaber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codingdummy/futurecombat/items/weapon/BeamSaber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codingdummy/futurecombat/model/BeamSaberEntityModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codingdummy/futurecombat/model/BeamSaberEntityModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/codingdummy/futurecombat/projectile/BeamSaberEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codingdummy/futurecombat/projectile/BeamSaberEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codingdummy/futurecombat/util/BeamSaberRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codingdummy/futurecombat/renderer/BeamSaberRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codingdummy/futurecombat/renderer/BeamSaberRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codingdummy/futurecombat/renderer/BeamSaberRenderer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/codingdummy/futurecombat/util/EntitiesType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codingdummy/futurecombat/util/EntitiesType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/codingdummy/futurecombat/util/KeyBindingHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codingdummy/futurecombat/util/KeyBindingHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/futurecombat/models/item/VoxelShape.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/futurecombat/models/item/beamsaber_activate.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,6 +167,14 @@
       <option name="presentableId" value="Default" />
       <updated>1593970661650</updated>
     </task>
+    <task id="LOCAL-00001" summary="create entity">
+      <created>1595434491551</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1595434491551</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -177,6 +190,10 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="create entity" />
+    <option name="LAST_COMMIT_MESSAGE" value="create entity" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Project_Structure" timestamp="1594456307558">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -187,11 +204,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593970726213" />
-    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1595433195538">
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1595819142316">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1595433195538" />
-    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1595425171662" />
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1595474569719" />
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1595819142316" />
     <state x="800" y="391" width="419" height="258" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1595432383541">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -201,10 +218,10 @@
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1594453974810" />
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594644749132" />
-    <state x="606" y="114" key="CommitChangelistDialog2" timestamp="1595434472686">
+    <state x="606" y="114" key="CommitChangelistDialog2" timestamp="1595434486197">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="606" y="114" key="CommitChangelistDialog2/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1595434472686" />
+    <state x="606" y="114" key="CommitChangelistDialog2/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1595434486197" />
     <state width="542" height="466" key="DebuggerActiveHint" timestamp="1594834557247">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -213,54 +230,54 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594611220617" />
-    <state width="938" height="132" key="GridCell.Tab.0.bottom" timestamp="1595434392858">
+    <state width="1876" height="2" key="GridCell.Tab.0.bottom" timestamp="1596118544321">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1322" height="258" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594985260455" />
-    <state width="938" height="132" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1595434392858" />
-    <state width="1876" height="258" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594984073577" />
-    <state width="938" height="132" key="GridCell.Tab.0.center" timestamp="1595434392858">
+    <state width="1877" height="2" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1595957575374" />
+    <state width="1876" height="2" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596118544321" />
+    <state width="1876" height="2" key="GridCell.Tab.0.center" timestamp="1596118544321">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1322" height="258" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1594985260455" />
-    <state width="938" height="132" key="GridCell.Tab.0.center/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1595434392858" />
-    <state width="1876" height="258" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594984073577" />
-    <state width="938" height="132" key="GridCell.Tab.0.left" timestamp="1595434392858">
+    <state width="1877" height="2" key="GridCell.Tab.0.center/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1595957575374" />
+    <state width="1876" height="2" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596118544321" />
+    <state width="1876" height="2" key="GridCell.Tab.0.left" timestamp="1596118544321">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1322" height="258" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1594985260455" />
-    <state width="938" height="132" key="GridCell.Tab.0.left/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1595434392858" />
-    <state width="1876" height="258" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594984073577" />
-    <state width="938" height="132" key="GridCell.Tab.0.right" timestamp="1595434392858">
+    <state width="1877" height="2" key="GridCell.Tab.0.left/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1595957575374" />
+    <state width="1876" height="2" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596118544321" />
+    <state width="1876" height="2" key="GridCell.Tab.0.right" timestamp="1596118544321">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1322" height="258" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1594985260455" />
-    <state width="938" height="132" key="GridCell.Tab.0.right/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1595434392858" />
-    <state width="1876" height="258" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594984073577" />
-    <state width="938" height="132" key="GridCell.Tab.1.bottom" timestamp="1595434392858">
+    <state width="1877" height="2" key="GridCell.Tab.0.right/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1595957575374" />
+    <state width="1876" height="2" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596118544321" />
+    <state width="1876" height="2" key="GridCell.Tab.1.bottom" timestamp="1596118544038">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1322" height="258" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594985260456" />
-    <state width="938" height="132" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1595434392858" />
-    <state width="1876" height="258" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594920103369" />
-    <state width="938" height="132" key="GridCell.Tab.1.center" timestamp="1595434392858">
+    <state width="1877" height="2" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1595957575185" />
+    <state width="1876" height="2" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596118544038" />
+    <state width="1876" height="2" key="GridCell.Tab.1.center" timestamp="1596118544037">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1322" height="258" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1594985260455" />
-    <state width="938" height="132" key="GridCell.Tab.1.center/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1595434392858" />
-    <state width="1876" height="258" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594920103369" />
-    <state width="938" height="132" key="GridCell.Tab.1.left" timestamp="1595434392858">
+    <state width="1877" height="2" key="GridCell.Tab.1.center/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1595957575185" />
+    <state width="1876" height="2" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596118544037" />
+    <state width="1876" height="2" key="GridCell.Tab.1.left" timestamp="1596118544037">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1322" height="258" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1594985260455" />
-    <state width="938" height="132" key="GridCell.Tab.1.left/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1595434392858" />
-    <state width="1876" height="258" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594920103369" />
-    <state width="938" height="132" key="GridCell.Tab.1.right" timestamp="1595434392858">
+    <state width="1877" height="2" key="GridCell.Tab.1.left/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1595957575185" />
+    <state width="1876" height="2" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596118544037" />
+    <state width="1876" height="2" key="GridCell.Tab.1.right" timestamp="1596118544038">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1322" height="258" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1594985260455" />
-    <state width="938" height="132" key="GridCell.Tab.1.right/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1595434392858" />
-    <state width="1876" height="258" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594920103369" />
+    <state width="1877" height="2" key="GridCell.Tab.1.right/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1595957575185" />
+    <state width="1876" height="2" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596118544038" />
     <state width="745" height="446" key="SwitcherDM" timestamp="1594608216588">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -269,27 +286,54 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="825" y="298" key="chooseDestDirectoryDialog/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1595432383511" />
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1595434426133">
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1596117807013">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1595434426133" />
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595425160076" />
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1595473502123" />
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596117807013" />
     <state x="690" y="289" width="540" height="469" key="extract.method.dialog" timestamp="1594259745505">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="289" width="540" height="469" key="extract.method.dialog/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1594259745505" />
+    <state x="591" y="217" width="737" height="606" key="find.popup" timestamp="1595697000311">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="591" y="217" width="737" height="606" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1595697000311" />
+    <state width="600" height="424" key="javadoc.popup" timestamp="1595811814925">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="600" height="424" key="javadoc.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1595811814925" />
     <state x="702" y="138" key="refactoring.ChangeSignatureDialog" timestamp="1594458819313">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="702" y="138" key="refactoring.ChangeSignatureDialog/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1594458819313" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1594564820344">
+    <state x="616" y="240" key="run.anything.popup" timestamp="1595865136175">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1594564820344" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1595334389383">
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1595865136175" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1595820134627">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1594264751491" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1595334389383" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1595820134627" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.15-29.0.4_mapped_snapshot_20190719-1.14.3/forge-1.15-29.0.4_mapped_snapshot_20190719-1.14.3-sources.jar!/net/minecraft/entity/Entity.java</url>
+          <line>528</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="Entities.get(1)" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ForgeMdk$runClient.ic" NAME="runClient Coverage Results" MODIFIED="1595942571093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

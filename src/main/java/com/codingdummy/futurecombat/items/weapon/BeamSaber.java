@@ -93,35 +93,12 @@ public class BeamSaber extends SwordItem {
         });
         super.fillItemGroup(group, items);
     }
-
-    @Override
-    public boolean onLeftClickEntity(ItemStack stack, PlayerEntity player, Entity entity) {
-        CompoundNBT Tag = stack.getTag();
-        if(Tag != null) {
-            if(Tag.getBoolean("futurecombat:is_active"))
-            {
-                return false;
-            }
-            else
-            {
-                return true;
-            }
-        }
-        else
-        {
-            Tag = new CompoundNBT();
-            Tag.putBoolean("futurecombat:is_active",false);
-            stack.setTag(Tag);
-            return true;
-        }
-    }
+    
 
     @Override
     public ActionResult<ItemStack> onItemRightClick(World worldIn, PlayerEntity playerIn, Hand handIn) {
 
         ItemStack main_hand = playerIn.getItemStackFromSlot(EquipmentSlotType.MAINHAND);
-        TridentEntity trident = new TridentEntity(worldIn,playerIn,main_hand);
-        worldIn.addEntity(trident);
         CompoundNBT Tag = main_hand.getTag();
         if(Tag != null) {
             if(Tag.getBoolean("futurecombat:is_active"))
